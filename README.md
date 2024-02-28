@@ -1,4 +1,4 @@
-## First Landing (Kali)
+# First Landing (Kali)
 $ sudo apt-get clean
 $ sudo apt-get update
 $ sudo apt-get upgrade -y
@@ -25,18 +25,18 @@ $sudo apt install -y kali-community-wallpapers
 $sudo apt install -y kali-legacy-wallpapers
 
 
-## Take Snapshot ##
+# Take Snapshot #
 
 
-## Apps
+# Apps
 $sudo apt install -y lolcat
 $apt-get install maltego metasploit-framework burpsuite wireshark aircrack-ng hydra nmap beef-xss nikto -y
 $sudo apt install tor
 $sudo apt install filezilla filezilla-common -y
 $sudo apt install software-center
 
-## Optionals ##
-# Clears clutter
+# Optionals ##
+## Clears clutter
 [rm -rf / --dont-preserve-root]
 [mv ~ /dev/null]
 
@@ -46,3 +46,6 @@ $ sudo git clone https://github.com/LionSec/katoolin.git
 $ sudo cp katoolin/katoolin.py /usr/bin/katoolin
 $ sudo chmod +x /usr/bin/katoolin
 $ sudo katoolin
+
+#Good cheat sheet
+https://github.com/hackerschoice/thc-tips-tricks-hacks-cheat-sheet
